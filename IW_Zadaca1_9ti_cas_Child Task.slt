@@ -1,0 +1,26 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "IW_Zadaca1_9ti_cas_Child Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "wQoHJXtxu1ueyFMICf1yGmzrzckyisc9",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "fileName": null
+        },
+        "pipeline_path": "IW_Zadaca1_9ti_cas_Child",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

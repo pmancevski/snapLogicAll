@@ -1,0 +1,4 @@
+{
+	prefix: 'test',
+	prefixer: x => this.prefix + x
+}
