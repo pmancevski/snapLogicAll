@@ -1,0 +1,43 @@
+{
+    "AddressesToValidate": [
+        {
+            "Address": {
+                "StreetLines": [
+                    {
+                        "StreetOne": "1283 WOODLANE"
+                    }
+                ],
+                "City": "ALPENA",
+                "State": "MI",
+                "Zip5": 49707,
+                "Population": 150000
+            }
+        },
+        {
+            "Address": {
+                "StreetLines": [
+                    {
+                        "StreetOne": "12830 FAIRHILL RD"
+                    }
+                ],
+                "City": "SHAKER HEIGHTS",
+                "State": "OH",
+                "Zip5": 44120,
+                "Population": 100000
+            }
+        },
+        {
+            "Address": {
+                "StreetLines": [
+                    {
+                        "StreetOne": "Goce Delchev 1"
+                    }
+                ],
+                "City": "Bitola",
+                "State": "OH",
+                "Zip5": 44120,
+                "Population": 110000
+            }
+        }
+    ]
+}

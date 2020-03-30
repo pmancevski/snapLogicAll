@@ -1,0 +1,69 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Domasna_Zadaca_4 Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "w8232dlvJjudi7TJwLJZEBsc9gjF44cf",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "Domasna_Zadaca_4",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": 20,
+                "when": "after"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2020-03-06",
+        "start_time": "17:33:41",
+        "time_zone": "CET"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": 20,
+                "when": "after"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2020-03-06",
+        "start_time": "17:33:41",
+        "time_zone": "CET"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

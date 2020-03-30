@@ -1,0 +1,24 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "HandsOn5Triggered",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "Zhq3IJ6zzFcc7ARpzYYucT4q1J4xBJyd",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_path": "Domasna_Zadaca_4",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

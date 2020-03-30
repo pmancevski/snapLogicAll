@@ -1,0 +1,26 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Domasna_Zadaca_9 Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "6WVbC9fYKF6aLoqA72rhmzmWAb1XJ0xi",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "Timestamp": "output_yyyy-mm-dd_00:00:00.csv"
+        },
+        "pipeline_path": "Domasna_Zadaca_9",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

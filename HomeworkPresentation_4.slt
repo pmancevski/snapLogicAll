@@ -1,0 +1,73 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "HomeworkPresentation_4",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "VsnNOYq53KSbt8jklTFz0CQKfg1Sj7kn",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "pmancevskiwork@gmail.com",
+            "states": [
+                "Completed",
+                "Failed"
+            ]
+        },
+        "pipeline_path": "Domasna_Zadaca_5",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": 5,
+                "when": "after"
+            },
+            "every": 3,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2020-03-06",
+        "start_time": "18:51:09",
+        "time_zone": "CET"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": 5,
+                "when": "after"
+            },
+            "every": 3,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2020-03-06",
+        "start_time": "18:51:09",
+        "time_zone": "CET"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
